@@ -26,7 +26,7 @@ func main() {
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
 			Name:  "addr",
-			Value: ":3251",
+			Value: ":3252",
 			Usage: "game server address",
 		},
 	}
